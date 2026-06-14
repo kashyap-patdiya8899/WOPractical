@@ -95,3 +95,15 @@ To learn more about React Native, take a look at the following resources:
 - [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
 - [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
 - [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+
+// animated header done
+// character infinite scroll issue check done
+// inline-style remove done
+// skeleton for episodes and location list
+// add comments
+// testing app
+// make video
+// double check functionality
+// add unit test
+// Error & Empty States
+// Make changes in readme file for understanding and run project

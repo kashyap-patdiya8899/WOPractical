@@ -1,7 +1,11 @@
 {
   "extends": "@react-native/typescript-config",
   "compilerOptions": {
-    "types": ["jest"]
+    "strict": true,
+    "paths": {
+      "@WOPractical/*": ["./src/*"]
+    },
+    "noUnusedLocals": true,
   },
   "include": ["**/*.ts", "**/*.tsx"],
   "exclude": ["**/node_modules", "**/Pods"]
