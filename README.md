@@ -62,48 +62,34 @@ If everything is set up correctly, you should see your new app running in the An
 
 This is one way to run your app — you can also build it directly from Android Studio or Xcode.
 
-## Step 3: Modify your app
+## Libraries Used
 
-Now that you have successfully run the app, let's make changes!
+```sh
+@react-native-community/netinfo – Network connectivity monitoring and internet status detection.
+@react-navigation/native – Core navigation library for React Native.
+@react-navigation/native-stack – Native stack navigator for screen navigation.
+@react-navigation/bottom-tabs – Bottom tab navigation implementation.
+@reduxjs/toolkit – Simplified and scalable Redux state management.
+react-redux – React bindings for Redux state management.
+redux-persist – Persists Redux state across app restarts.
+@tanstack/react-query – Data fetching, caching, pagination, and server state management.
+axios – Promise-based HTTP client for API communication.
+react-native-mmkv – High-performance local key-value storage.
+react-native-quick-sqlite – SQLite database integration for persisting favourite characters locally.
+```
 
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
+## Project Features
 
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
-
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
-
-// animated header done
-// character infinite scroll issue check done
-// inline-style remove done
-// skeleton for episodes and location list
-// add comments
-// testing app
-// make video
-// double check functionality
-// add unit test
-// Error & Empty States
-// Make changes in readme file for understanding and run project
+```sh
+Character listing with infinite scrolling.
+Search characters by name.
+Filter characters by status and gender.
+Header auto hide-show header.
+Character detail screen.
+Episode listing grouped by season.
+Episode detail screen.
+Location listing.
+Location detail screen with residents.
+Favourite character management persisted in SQLite.
+Skeleton loaders for improved loading experience.
+```
